@@ -24,6 +24,18 @@ nav p {
     margin-right: 100px;
     max-width: 250px;
 }
-#top {
-    width: 100px;
+.top {
+    width: 75px;
+    height: 75px;
+    color: #ffffff;
+    background-color: #E75D02;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom:10px;
+    right: 0px;
 }
