@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
+
+html {
+    font-family: Habibi;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: Irish Grover;
+}
+header {
+    background-color: #06A816;
+    color: #ffffff;
+    text-align: center;
+}
+header h1 {
+    text-shadow: 2px 2px 3px #000000;
+}
+nav p {
+    background-color: #E75D02;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 250px;
+}
+#top {
+    width: 100px;
+}
