@@ -39,3 +39,8 @@ nav p {
     bottom:10px;
     right: 0px;
 }
+.caption {
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
