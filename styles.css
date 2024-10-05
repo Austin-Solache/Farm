@@ -3,7 +3,7 @@
 
 html {
     font-family: Habibi;
-    text-align: center;
+
 }
 h1, h2, h3 {
     font-family: Irish Grover;
@@ -14,21 +14,31 @@ h1 {
 h2 {
     text-align: left;
     font-size: 1.75em;
+    padding-top: 10px;
 }
 h3 {
     font-size: 1.25em;
+    text-align: center;
 }
+img {
+    position:relative;
+    left: 20%;
+    align-items: center;
+
+}   
 header {
     background-color: #06A816;
     color: #ffffff;
     font-size: 20px;
-    position: relative;
+    text-align: center;
     bottom: 35px;
-    width: 100%;
-    height: 130px;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
-p {
+body p {
     font-size: 23px;
+    text-align: center;
 }
 header h1 {
     text-shadow: 2px 3px 3px #000000;
@@ -37,10 +47,12 @@ nav p {
     background-color: #E75D02;
     color: #ffffff;
     position: relative;
+    text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    width: 300px;
-    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
 }
 .top {
     width: 75px;
@@ -62,21 +74,23 @@ nav p {
     color: #ffffff;
     position:relative;
     text-align: center;
-    left: 25%;
-    right: 25%;
+    left: 20%;
     bottom: 170px;
     width: 200px;
+    margin-left: 40px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.7);
 }
 .contact {
+    text-align: center;
     background-color: #06A816;
     padding-bottom: 1px;
     padding-top: 1px;
     color: #ffffff;
-    width: 100%;
+    left: 0px;  
 }
 footer{
     color: #06A816;
     font-weight: bold;
+    text-align: center;
 }
