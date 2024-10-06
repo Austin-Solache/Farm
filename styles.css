@@ -21,11 +21,13 @@ h3 {
     font-size: 1.25em;
     text-align: center;
 }
+
 img {
     position:relative;
-    left: 20%;
-    align-items: center;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 155px;
 }
 body {
     margin: 0;
@@ -82,10 +84,10 @@ nav p {
     color: #ffffff;
     position:relative;
     text-align: center;
-    left: 20%;
-    bottom: 170px;
+    left: 50%;
+    bottom: 175px;
     width: 200px;
-    margin-left: 35px;
+    margin-left: -105px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -102,14 +104,17 @@ footer{
     font-weight: bold;
     text-align: center;
 }
-@media screen and (min-width:428){
-    html {
-        background-color: red;
-    }
-}
 @media screen and (min-width:834px){
     html {
         background-color: blue;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;                      
+    }
+    .images img {
+       width: 100%;
     }
 }
 @media screen and (min-width:1280px){
