@@ -12,14 +12,14 @@
 </header>
 
 <nav>
-    <p>Fruits</p>
-    <p>Vegetables</p>
+    <button  onclick="document.getElementById('Fruits').scrollIntoView({ behavior: 'smooth' });">Fruits</button>
+    <button  onclick="document.getElementById('vegetables').scrollIntoView({ behavior: 'smooth' });">Vegetables</button>
 </nav>
 
-<div class="top">Top</div>
+<button class="top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">Top</button>
 
 <body>
-<h2>Fruits</h2>
+<h2 id="Fruits">Fruits</h2>
 
 <div class="content">
 Welcome to our farm, where we take pride in growing a variety of delicious and nutritious fruits. 
@@ -81,7 +81,7 @@ Experience the taste of nature's bounty with our premium quality fruits.
   </figure> 
 </div>
 
-<h2>Vegetables</h2>
+<h2 id="vegetables">Vegetables</h2>
 
 <div class="content">
 At our farm, we are dedicated to growing a diverse array of vegetables that are both healthy and delicious. 

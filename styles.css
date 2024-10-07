@@ -52,14 +52,16 @@ header h1 {
     margin-left: 10px;
     padding-left: 10px;
     font-weight: 500;
+    padding-bottom: 20px;
 }
 nav {
     display: grid;
     place-items: center;  
 }
-nav p {
+nav button {
     background-color: #E75D02;
     color: #ffffff;
+    font-size: 23px;
     text-align: center;
     width: 300px;
     margin-left:20%;
@@ -119,7 +121,7 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
-    nav p {
+    nav button {
         margin-left:20%;
     }
     header {
@@ -172,7 +174,9 @@ footer{
         width:620px;
         font-size: 22px;
     }
-    nav p {
+    .content {
+    }
+    nav button {
         border: #ffffff solid 2px;
     }
     .contact {
@@ -195,8 +199,10 @@ footer{
         grid-gap: 10px;                         
     }
     nav {
-        width: 690px;
-        text-align: right;
-        left: 60%;
+        position: relative;
+        bottom: 100px;
+        width:620px;
+        padding-right: 10px;
+
     }
 }
